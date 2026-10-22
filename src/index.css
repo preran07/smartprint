@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  overscroll-behavior-y: none;
+}
+
+button {
+  cursor: pointer;
+}
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
